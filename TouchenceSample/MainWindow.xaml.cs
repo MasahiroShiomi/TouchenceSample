@@ -31,7 +31,7 @@ namespace TouchenceSample
         {
             InitializeComponent();
 
-            string parameterFilePath = ".\\Settings.xml";
+            string parameterFilePath = System.Environment.CurrentDirectory + @"\Config\Settings.xml";
             try
             {
                 System.IO.FileStream fs = new System.IO.FileStream(parameterFilePath, System.IO.FileMode.Open, FileAccess.Read);
@@ -60,7 +60,7 @@ namespace TouchenceSample
             label_ComPort.Content = portInfo;
             label_ServerPort.Content = "Server Port: " + tsm.serverPort.ToString();
 
-                this.Loaded += new RoutedEventHandler( MainWindow_Loaded );
+            this.Loaded += new RoutedEventHandler( MainWindow_Loaded );
         }
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)

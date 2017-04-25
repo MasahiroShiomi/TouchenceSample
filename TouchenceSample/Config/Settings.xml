@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<touchsensormanager>
+	<serverport>12000</serverport>
+  <touchsensorreader>
+
+    <touchsensors>
+    <id>01</id>
+    <calibrationfilename>Config\151110_021_ID01.ini</calibrationfilename>
+    <backgroundfilename>Config\151110_021_ID01_back.ini</backgroundfilename>
+    </touchsensors>
+
+    <comport>COM3</comport>
+
+    <sensortype>CUB-D-16D-SN20-CN</sensortype>
+
+    <frequency>20</frequency>
+
+  </touchsensorreader>
+</touchsensormanager>
