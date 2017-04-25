@@ -1,5 +1,5 @@
 # TouchenceSample
-Touchence社が開発した，CUB-D-16D-SN20-CNを読み取るサンプルプログラムです．センサ等の詳細は，http://www.touchence.jp/cube/に記載されています．
+Touchence社が開発した，CUB-D-16D-SN20-CNを読み取るサンプルプログラムです．センサ等の詳細はこちらを参照して下さい　http://www.touchence.jp/cube/
 
 ## Overview
 * POT-DEB-CNを通じたシリアル接続で，複数のセンサデータを読み取ることが出来ます．
